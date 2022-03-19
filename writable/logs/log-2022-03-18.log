@@ -1,0 +1,317 @@
+CRITICAL - 2022-03-18 06:38:10 --> Undefined variable: session
+#0 C:\xampp\htdocs\tes_mega\app\Controllers\Home.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 37, Array)
+#1 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(928): App\Controllers\Home->login()
+#2 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tes_mega\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tes_mega\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-18 06:38:40 --> Undefined variable: beranda
+#0 C:\xampp\htdocs\tes_mega\app\Controllers\Home.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 61, Array)
+#1 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(928): App\Controllers\Home->dashboard()
+#2 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tes_mega\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tes_mega\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-18 06:39:04 --> Undefined variable: session
+#0 C:\xampp\htdocs\tes_mega\app\Controllers\Home.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 62, Array)
+#1 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(928): App\Controllers\Home->dashboard()
+#2 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tes_mega\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tes_mega\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-18 06:39:19 --> Undefined index: icon
+#0 C:\xampp\htdocs\tes_mega\app\Views\template.php(373): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 373, Array)
+#1 C:\xampp\htdocs\tes_mega\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tes_mega\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tes_mega\system\View\View.php(246): CodeIgniter\View\View->render('template', Array, true)
+#4 C:\xampp\htdocs\tes_mega\system\Common.php(1271): CodeIgniter\View\View->render('Dashboard/index...', Array, true)
+#5 C:\xampp\htdocs\tes_mega\app\Controllers\Home.php(72): view('Dashboard/index...', Array)
+#6 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(928): App\Controllers\Home->dashboard()
+#7 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tes_mega\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tes_mega\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-03-18 06:56:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '='1647604609_44471dbd741691652b36.png' WHERE id='1'' at line 1
+CRITICAL - 2022-03-18 06:56:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '='1647604609_44471dbd741691652b36.png' WHERE id='1'' at line 1
+#0 C:\xampp\htdocs\tes_mega\system\Database\MySQLi\Connection.php(329): mysqli->query('UPDATE beranda ...')
+#1 C:\xampp\htdocs\tes_mega\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE beranda ...')
+#2 C:\xampp\htdocs\tes_mega\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE beranda ...')
+#3 C:\xampp\htdocs\tes_mega\app\Models\ModelsB.php(27): CodeIgniter\Database\BaseConnection->query('UPDATE beranda ...')
+#4 C:\xampp\htdocs\tes_mega\app\Controllers\Home.php(109): App\Models\ModelsB->updateLogo(1, '1647604609_4447...', NULL)
+#5 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(928): App\Controllers\Home->updateLogo()
+#6 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tes_mega\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tes_mega\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-18 07:00:32 --> chmod(): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'chmod(): No suc...', 'C:\\xampp\\htdocs...', 104, Array)
+#1 C:\xampp\htdocs\tes_mega\app\Controllers\Home.php(104): chmod('Assets/logo/log...', 511)
+#2 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(928): App\Controllers\Home->updateLogo1()
+#3 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tes_mega\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\tes_mega\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-18 07:02:41 --> chmod(): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'chmod(): No suc...', 'C:\\xampp\\htdocs...', 136, Array)
+#1 C:\xampp\htdocs\tes_mega\app\Controllers\Home.php(136): chmod('Assets/logo/164...', 511)
+#2 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(928): App\Controllers\Home->updateLogo3()
+#3 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tes_mega\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\tes_mega\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-18 07:40:05 --> Invalid file: Template/Admin/header.php
+#0 C:\xampp\htdocs\tes_mega\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Template/Admin/...')
+#1 C:\xampp\htdocs\tes_mega\system\View\View.php(246): CodeIgniter\View\View->render('Template/Admin/...', Array, true)
+#2 C:\xampp\htdocs\tes_mega\system\Common.php(1271): CodeIgniter\View\View->render('Dashboard/user....', Array, true)
+#3 C:\xampp\htdocs\tes_mega\app\Controllers\Home.php(158): view('Dashboard/user....', Array)
+#4 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(928): App\Controllers\Home->user()
+#5 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tes_mega\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\tes_mega\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-03-18 07:46:20 --> Undefined variable: nomor_hp
+#0 C:\xampp\htdocs\tes_mega\app\Models\ModelsU.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 61, Array)
+#1 C:\xampp\htdocs\tes_mega\app\Controllers\Home.php(327): App\Models\ModelsU->simpanUser('asdasdas', 'irfanhanif1013@...', '0983103910')
+#2 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(928): App\Controllers\Home->updateAdmin()
+#3 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tes_mega\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\tes_mega\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-18 15:32:28 --> Undefined property: App\Controllers\Home::$kategori
+#0 C:\xampp\htdocs\tes_mega\app\Controllers\Home.php(349): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 349, Array)
+#1 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(928): App\Controllers\Home->showKategori()
+#2 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tes_mega\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tes_mega\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-18 15:32:28 --> Undefined property: App\Controllers\Home::$kategori
+#0 C:\xampp\htdocs\tes_mega\app\Controllers\Home.php(349): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 349, Array)
+#1 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(928): App\Controllers\Home->showKategori()
+#2 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tes_mega\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tes_mega\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-18 16:46:08 --> Undefined property: App\Controllers\Home::$barang
+#0 C:\xampp\htdocs\tes_mega\app\Controllers\Home.php(193): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 193, Array)
+#1 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(928): App\Controllers\Home->barang()
+#2 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tes_mega\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tes_mega\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-18 16:46:32 --> Undefined property: App\Controllers\Home::$artikel
+#0 C:\xampp\htdocs\tes_mega\app\Controllers\Home.php(196): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 196, Array)
+#1 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(928): App\Controllers\Home->barang()
+#2 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tes_mega\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tes_mega\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-18 16:46:54 --> Undefined variable: isi
+#0 C:\xampp\htdocs\tes_mega\app\Controllers\Home.php(567): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 567, Array)
+#1 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(928): App\Controllers\Home->getBarang()
+#2 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tes_mega\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tes_mega\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-18 17:18:45 --> chmod(): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'chmod(): No suc...', 'C:\\xampp\\htdocs...', 670, Array)
+#1 C:\xampp\htdocs\tes_mega\app\Controllers\Home.php(670): chmod('Assets/images/1...', 511)
+#2 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(928): App\Controllers\Home->uploadBarang()
+#3 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tes_mega\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\tes_mega\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-18 17:19:13 --> Undefined variable: path
+#0 C:\xampp\htdocs\tes_mega\app\Controllers\Home.php(668): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 668, Array)
+#1 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(928): App\Controllers\Home->uploadBarang()
+#2 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tes_mega\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tes_mega\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-03-18 17:19:24 --> Table 'db_mega_giga.barang' doesn't exist
+CRITICAL - 2022-03-18 17:19:24 --> Table 'db_mega_giga.barang' doesn't exist
+#0 C:\xampp\htdocs\tes_mega\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO bar...')
+#1 C:\xampp\htdocs\tes_mega\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO bar...')
+#2 C:\xampp\htdocs\tes_mega\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO bar...')
+#3 C:\xampp\htdocs\tes_mega\app\Models\ModelsP.php(50): CodeIgniter\Database\BaseConnection->query('INSERT INTO bar...')
+#4 C:\xampp\htdocs\tes_mega\app\Controllers\Home.php(671): App\Models\ModelsP->simpan('220318171808569...', '1', '1803221544', 'Advan Maniak', '<p>dkasndkjakja...', '100', '19999999', '18 Mar, 2022', '1647641964_2092...')
+#5 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(928): App\Controllers\Home->uploadBarang()
+#6 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tes_mega\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tes_mega\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-03-18 17:19:51 --> Table 'db_mega_giga.barang' doesn't exist
+CRITICAL - 2022-03-18 17:19:51 --> Table 'db_mega_giga.barang' doesn't exist
+#0 C:\xampp\htdocs\tes_mega\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO bar...')
+#1 C:\xampp\htdocs\tes_mega\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO bar...')
+#2 C:\xampp\htdocs\tes_mega\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO bar...')
+#3 C:\xampp\htdocs\tes_mega\app\Models\ModelsP.php(50): CodeIgniter\Database\BaseConnection->query('INSERT INTO bar...')
+#4 C:\xampp\htdocs\tes_mega\app\Controllers\Home.php(671): App\Models\ModelsP->simpan('220318171808569...', '1', '1803221544', 'Advan Maniak', '<p>dkasndkjakja...', '100', '19999999', '18 Mar, 2022', '1647641991_3aea...')
+#5 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(928): App\Controllers\Home->uploadBarang()
+#6 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tes_mega\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tes_mega\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-03-18 17:23:39 --> Duplicate entry '2147483647' for key 'PRIMARY'
+CRITICAL - 2022-03-18 17:23:39 --> Duplicate entry '2147483647' for key 'PRIMARY'
+#0 C:\xampp\htdocs\tes_mega\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO pro...')
+#1 C:\xampp\htdocs\tes_mega\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO pro...')
+#2 C:\xampp\htdocs\tes_mega\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO pro...')
+#3 C:\xampp\htdocs\tes_mega\app\Models\ModelsP.php(50): CodeIgniter\Database\BaseConnection->query('INSERT INTO pro...')
+#4 C:\xampp\htdocs\tes_mega\app\Controllers\Home.php(671): App\Models\ModelsP->simpan('220318172324468...', '1', '1803229946', 'dasdasda', '<p>dkjsadnada</...', '31232', '312311', '2022-Mar-18 17:...', '1647642219_8753...')
+#5 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(928): App\Controllers\Home->uploadBarang()
+#6 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tes_mega\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tes_mega\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-03-18 17:23:42 --> Duplicate entry '2147483647' for key 'PRIMARY'
+CRITICAL - 2022-03-18 17:23:42 --> Duplicate entry '2147483647' for key 'PRIMARY'
+#0 C:\xampp\htdocs\tes_mega\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO pro...')
+#1 C:\xampp\htdocs\tes_mega\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO pro...')
+#2 C:\xampp\htdocs\tes_mega\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO pro...')
+#3 C:\xampp\htdocs\tes_mega\app\Models\ModelsP.php(50): CodeIgniter\Database\BaseConnection->query('INSERT INTO pro...')
+#4 C:\xampp\htdocs\tes_mega\app\Controllers\Home.php(671): App\Models\ModelsP->simpan('220318172324468...', '1', '1803229946', 'dasdasda', '<p>dkjsadnada</...', '31232', '312311', '2022-Mar-18 17:...', '1647642222_9c4d...')
+#5 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(928): App\Controllers\Home->uploadBarang()
+#6 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tes_mega\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tes_mega\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-03-18 17:24:26 --> Duplicate entry '2147483647' for key 'PRIMARY'
+CRITICAL - 2022-03-18 17:24:26 --> Duplicate entry '2147483647' for key 'PRIMARY'
+#0 C:\xampp\htdocs\tes_mega\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO pro...')
+#1 C:\xampp\htdocs\tes_mega\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO pro...')
+#2 C:\xampp\htdocs\tes_mega\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO pro...')
+#3 C:\xampp\htdocs\tes_mega\app\Models\ModelsP.php(50): CodeIgniter\Database\BaseConnection->query('INSERT INTO pro...')
+#4 C:\xampp\htdocs\tes_mega\app\Controllers\Home.php(671): App\Models\ModelsP->simpan('220318172407670...', '1', '1803221544', 'dasdada', '<p>dsadadasd</p...', '12', '2213', '2022-Mar-18 17:...', '1647642266_71eb...')
+#5 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(928): App\Controllers\Home->uploadBarang()
+#6 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tes_mega\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tes_mega\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-18 17:36:12 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\tes_mega\app\Models\ModelsK.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 69, Array)
+#1 C:\xampp\htdocs\tes_mega\app\Controllers\Home.php(579): App\Models\ModelsK->getKategoriRow('1')
+#2 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(928): App\Controllers\Home->getBarang()
+#3 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tes_mega\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\tes_mega\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-18 18:03:21 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\tes_mega\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\tes_mega\system\Common.php(1271): CodeIgniter\View\View->render('Dashboard/baran...', Array, true)
+#2 C:\xampp\htdocs\tes_mega\app\Controllers\Home.php(198): view('Dashboard/baran...', Array)
+#3 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(928): App\Controllers\Home->barang()
+#4 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tes_mega\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\tes_mega\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-18 18:52:44 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\tes_mega\app\Views\Dashboard\edit.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 60, Array)
+#1 C:\xampp\htdocs\tes_mega\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tes_mega\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tes_mega\system\Common.php(1271): CodeIgniter\View\View->render('Dashboard/edit....', Array, true)
+#4 C:\xampp\htdocs\tes_mega\app\Controllers\Home.php(236): view('Dashboard/edit....', Array)
+#5 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(928): App\Controllers\Home->editBarang('" id "')
+#6 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tes_mega\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tes_mega\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-18 18:53:08 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\tes_mega\app\Views\Dashboard\edit.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 60, Array)
+#1 C:\xampp\htdocs\tes_mega\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tes_mega\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tes_mega\system\Common.php(1271): CodeIgniter\View\View->render('Dashboard/edit....', Array, true)
+#4 C:\xampp\htdocs\tes_mega\app\Controllers\Home.php(236): view('Dashboard/edit....', Array)
+#5 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(928): App\Controllers\Home->editBarang('"id"')
+#6 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tes_mega\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tes_mega\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-18 18:54:55 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\tes_mega\app\Views\Dashboard\edit.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 60, Array)
+#1 C:\xampp\htdocs\tes_mega\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tes_mega\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tes_mega\system\Common.php(1271): CodeIgniter\View\View->render('Dashboard/edit....', Array, true)
+#4 C:\xampp\htdocs\tes_mega\app\Controllers\Home.php(236): view('Dashboard/edit....', Array)
+#5 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(928): App\Controllers\Home->editBarang(' id')
+#6 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tes_mega\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tes_mega\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-18 18:55:32 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\tes_mega\app\Views\Dashboard\edit.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 60, Array)
+#1 C:\xampp\htdocs\tes_mega\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tes_mega\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tes_mega\system\Common.php(1271): CodeIgniter\View\View->render('Dashboard/edit....', Array, true)
+#4 C:\xampp\htdocs\tes_mega\app\Controllers\Home.php(236): view('Dashboard/edit....', Array)
+#5 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(928): App\Controllers\Home->editBarang(' id')
+#6 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tes_mega\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tes_mega\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-18 18:55:33 --> syntax error, unexpected ')'
+#0 C:\xampp\htdocs\tes_mega\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\tes_mega\system\Common.php(1271): CodeIgniter\View\View->render('Dashboard/baran...', Array, true)
+#2 C:\xampp\htdocs\tes_mega\app\Controllers\Home.php(198): view('Dashboard/baran...', Array)
+#3 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(928): App\Controllers\Home->barang()
+#4 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tes_mega\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\tes_mega\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-18 18:55:37 --> syntax error, unexpected ')'
+#0 C:\xampp\htdocs\tes_mega\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\tes_mega\system\Common.php(1271): CodeIgniter\View\View->render('Dashboard/baran...', Array, true)
+#2 C:\xampp\htdocs\tes_mega\app\Controllers\Home.php(198): view('Dashboard/baran...', Array)
+#3 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(928): App\Controllers\Home->barang()
+#4 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tes_mega\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\tes_mega\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-18 18:56:22 --> Undefined index: images
+#0 C:\xampp\htdocs\tes_mega\app\Views\Dashboard\edit.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\tes_mega\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tes_mega\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tes_mega\system\Common.php(1271): CodeIgniter\View\View->render('Dashboard/edit....', Array, true)
+#4 C:\xampp\htdocs\tes_mega\app\Controllers\Home.php(236): view('Dashboard/edit....', Array)
+#5 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(928): App\Controllers\Home->editBarang('4')
+#6 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tes_mega\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tes_mega\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-18 19:06:30 --> syntax error, unexpected '$imageName' (T_VARIABLE), expecting ')'
+#0 C:\xampp\htdocs\tes_mega\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('Home/editBarang...')
+#1 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('Home/editBarang...')
+#2 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\tes_mega\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tes_mega\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tes_mega\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
